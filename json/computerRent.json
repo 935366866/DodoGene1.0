@@ -1,0 +1,24 @@
+{
+	"rows":[
+		{
+			"model":"经济版",
+			"sysPlatform":"<p>CPU：1颗Intel E5，总6核心 12线程。</p><p>内存：32G</p><p>磁盘：8T (RAID5 后4T)</p>",
+			"flowDeploy":"<p>1.DodoGene生信DIY分析系统</p><p>2.有参mRNA转录组分析流程及工具</p>",
+			"price":"9000/月"
+			
+		},
+		{
+			"model":"配置B",
+			"sysPlatform":"<p>CPU：2颗Intel E5，总20核心 40线程。</p><p>内存：48G</p><p>磁盘：12T (RAID5 后8T)</p>",
+			"flowDeploy":"<p>1.DodoGene生信DIY分析系统</p><p>2.有参mRNA转录组分析流程及工具</p>",
+			"price":"9000/月"
+			
+		},
+		{
+			"model":"配置C",
+			"sysPlatform":"<p>CPU：2颗Intel E5，总24核心 48线程。</p><p>内存：28G</p><p>磁盘：32T (RAID5 后可用容量30T)</p>",
+			"flowDeploy":"<p>1.DodoGene生信DIY分析系统</p><p>2.有参mRNA转录组分析流程及工具</p>",
+			"price":"9000/月"
+		}
+	]
+}

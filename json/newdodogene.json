@@ -1,0 +1,22 @@
+{
+	"rows":[
+		{
+			"project_name":"DodoGene生信DIY分析系统",
+			"categories":"系统平台",
+			"edition":"version3.0",
+			"fileExplain":"<a class='file' onclick='openFlowReport(\"systemInstruction/index.html\")'>点击查看</a>",
+			"price":"3.9万/套"
+			
+		},
+		{
+			"project_name":"有参mRNA转录组分析流程",
+			"categories":"RNA流程",
+			"edition":"version2.0",
+			"fileExplain":"<a class='file' onclick='openFlowReport(\"flowInstruction/index.html\")'>点击查看</a>",
+			"price":"3.0万/套"
+		
+		}
+
+
+	]
+}

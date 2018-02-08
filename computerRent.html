@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欢迎来到DodoGene</title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="public/css/reset.css" rel="stylesheet" type="text/css"  media="all" />
+	<link href="public/css/bootstrap.min.css" rel="stylesheet">
+	<link href="public/css/bootstrap-table.css" rel="stylesheet" >
+	<link rel="stylesheet" href="css/newdodogene.css">
+	<!--<link  href="css/computerRent.css" rel="stylesheet"/>-->
+	<link rel="shortcut icon" href="img/www.ico.la_092f18b3160c26083d947b31212af137_32X32.ico" />
+</head>
+<body style="min-width: 1170px;">
+	<!--前台公共头部-->
+	<header class="top">
+		<div class="content">
+			<a href="#" class="logo"><img src="public/image/navLogo.svg"/></a>
+			<ul class="main_box">
+				<li id="main" ><a href="newdodogeneindex.html">首页</a></li>
+				<li id="sodaIndex"><a href="newdodogenetable.html">流程产品</a></li>
+				<li id="frontierResearch"  class="active"><a href="computerRent.html" >一体机租赁</a></li>
+			</ul>
+			<span class="phone">购买咨询18510864623( <span>微信</span> )</span>			
+		</div>
+	</header>
+	<section class="infoBox">
+			<div id="toolbar">
+				<p>DodoGene可视化生信分析一体机为您开启本地分析服务快捷模式</p>
+			</div>
+			<table data-toggle="table"
+			data-toolbar="#toolbar"
+			data-search="true"
+			data-show-refresh="true"
+			data-show-columns="true"
+			data-show-export="true"	
+			data-id-field="id"
+	
+			 id="pruductList">
+			<thead>
+				<tr>
+					<th data-width="180" data-field="model" data-align="center" data-sortable="true" >型号</th>
+					<th data-field="sysPlatform" data-align="center" data-sortable="true">硬件配置</th>
+					<th data-field="flowDeploy" data-align="center" data-sortable="true">系统流程配置</th>
+					<th data-width="180" data-field="price" data-align="center" data-sortable="true">价格</th>
+				</tr>
+			</thead>
+		</table>	
+</section>
+<footer class="footerstyle" style="margin-top:120px;">
+			<p>版权所有 © 2016 京ICP备15033925号</p>
+			<p>北京拓美科基因科技有限公司</p>
+		</footer>
+<script src="public/js/jquery-1.11.2.min.js"></script>
+<script src="public/js/bootstrap.min.js"></script>
+<script src="public/js/bootstrap-table.js"></script>
+<script>
+$.ajax({
+	type:"get",
+	url:"json/computerRent.json",
+	success:function(data){
+		$("#pruductList").bootstrapTable("load",data.rows)
+	}
+});
+</script>
+</body>
+</html>

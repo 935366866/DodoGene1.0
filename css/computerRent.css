@@ -1,0 +1,10 @@
+thead th{
+	background-color: #64b2df;
+	color: #fff;
+}
+tbody td:nth-child(1){
+	color: #64b2df;
+}
+td,th{
+	border: 1px solid #ccc;
+}

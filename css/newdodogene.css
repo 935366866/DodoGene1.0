@@ -1,0 +1,193 @@
+body{
+	font-family:"Microsoft YaHei",tahoma, arial, "Hiragino Sans GB", 宋体, sans-serif;
+}
+
+a:hover{
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+
+.content{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.top{
+	background-color: #13438b;
+	height: 52px;
+	padding: 0px;
+	width: 100%;
+}
+.logo{
+	float: left;
+	line-height: 52px;
+	margin-right: 73px;
+}
+.main_box{
+	line-height: 52px;
+	padding: 0px;
+	margin: 0px;
+}
+.main_box li{
+	float: left;
+	list-style: none;
+	width: 180px;
+	text-align: center;
+}
+.main_box a{
+	font-size: 14px;
+	display: inline-block;
+	height: 52px;
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bolder;
+	letter-spacing: 5px;
+	cursor: pointer;
+}
+.phone{
+	float: right;;
+	color:#fff;
+	letter-spacing: 1px;
+	line-height: 52px;
+	font-size: 15px;
+}
+.phone>span{
+	font-size: 14px;
+}
+.active{
+	background: #d3d5e4 !important;
+}
+.active a{
+	color: #13438b!important;
+}
+.tilteFont{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	color: #333;
+	font-weight: 700;
+	font-size: 18px;
+	margin-top: 10px;
+	letter-spacing: 3px;
+	clear: both;
+}
+.meritList{
+	width: 900px;
+	margin: 0 auto;
+}
+.meritList li{
+	/*font-family: "微软雅黑";*/
+	list-style: none;
+	float: left;
+	text-align: center;
+	width: 300px;
+	color:#333;
+	font-weight: 700;
+	font-size:16px;
+	margin-bottom: 80px;
+}
+.meritList li span:nth-child(2){
+	display: block;
+	margin: 80px 0px 0px  0px;
+}
+.meritList li span:nth-child(3){
+	display: block;
+	margin: 30px 0px 0px  0px;
+}
+.meritList li p{
+	font-size: 14px;
+	color: #858585;
+	font-weight: normal;
+}
+.listBox{
+	margin-top: 35px;
+	height: 445px;
+}
+.titleText{
+	text-align: center;
+	padding-top: 50px;
+}
+.titleOne{
+	font-size:35px;
+	font-weight: bold;
+	color: #0566C0;
+}
+.titleTwo{
+	font-size: 26px;
+	color:#52A8F9;
+}
+.imgBox{
+	width: 1000px;
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 0px;
+}
+.imgBox .imgWrap{
+	float: left;
+	width: 600px;
+	height: 390px;
+	display: inline-block;
+	position: relative;
+}
+.imgBox .imgWrap img:nth-child(1){
+	width: 600px;
+}
+.imgBox .imgWrap img:nth-child(2){
+	width: 445px;
+	height: 264px;
+	border-bottom-left-radius: 2px;
+	border-bottom-right-radius: 2px;
+	position: absolute;
+	top: 54px;
+	right: 76px;
+}
+.rightBox{
+	float: left;
+	text-align: left;
+	margin-left: 50px;
+}
+.rightBox h3{
+	color: red;
+}
+.rightBox .bold{
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+.active-black{
+	color:#fff!important;
+	background-color: #13438b!important;
+}
+.infoBox{
+	width: 1170px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.footerstyle{
+	font-size: 12px;
+	line-height: 10px;
+	text-align: center;
+	color: #999;
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.btn-black:hover,.btn-black:focus,.btn-black:active:focus,.btn-black.active:focus,.btn-black.focus,.btn-black:active.focus,.btn-black.active.focus { 
+	color:#fff;
+}
+
+.tableTip{
+	
+	float: left;
+	left: 72px;
+	top: 10px;
+	z-index: 999;
+}
+.file{
+	cursor: pointer;
+}
